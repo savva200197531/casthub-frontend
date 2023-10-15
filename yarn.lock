@@ -565,6 +565,13 @@
   resolved "https://registry.yarnpkg.com/@mui/core-downloads-tracker/-/core-downloads-tracker-5.14.12.tgz#7be13094ef0c2fc7c3854da2b90a7eae456ebefd"
   integrity sha512-WZhCkKqhrXaSVBzoC6LNcVkIawS000OOt7gmnp4g9HhyvN0PSclRXc/JrkC7EwfzUAZJh+hiK2LaVsbtOpNuOg==
 
+"@mui/icons-material@^5.14.12":
+  version "5.14.12"
+  resolved "https://registry.yarnpkg.com/@mui/icons-material/-/icons-material-5.14.12.tgz#6634cdc3198bc438e8d38ce591c96d63d5df99a0"
+  integrity sha512-aFm6g/AIB3RQN9h/4MKoBoBybLZXeR3aDHWNx6KzemEpIlElUxv5uXRX5Qk1VC6v/YPkhbaPsiLLjsRSTiZF3w==
+  dependencies:
+    "@babel/runtime" "^7.23.1"
+
 "@mui/material@^5.14.12":
   version "5.14.12"
   resolved "https://registry.yarnpkg.com/@mui/material/-/material-5.14.12.tgz#8fa5bebd1a096796a288b548f1ba867e068601c8"
@@ -695,10 +702,23 @@
   dependencies:
     "@babel/types" "^7.20.7"
 
+"@types/cookie@^0.5.1":
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/@types/cookie/-/cookie-0.5.2.tgz#9bf9d62c838c85a07c92fdf2334c2c14fd9c59a9"
+  integrity sha512-DBpRoJGKJZn7RY92dPrgoMew8xCWc2P71beqsjyhEI/Ds9mOyVmBwtekyfhpwFIVt1WrxTonFifiOZ62V8CnNA==
+
 "@types/history@^4.7.11":
   version "4.7.11"
   resolved "https://registry.yarnpkg.com/@types/history/-/history-4.7.11.tgz#56588b17ae8f50c53983a524fc3cc47437969d64"
   integrity sha512-qjDJRrmvBMiTx+jyLxvLfJU7UznFuokDv4f3WRuriHKERccVpFU+8XMQUAbDzoiJCsmexxRExQeMwwCdamSKDA==
+
+"@types/hoist-non-react-statics@^3.3.1":
+  version "3.3.3"
+  resolved "https://registry.yarnpkg.com/@types/hoist-non-react-statics/-/hoist-non-react-statics-3.3.3.tgz#8bb41d9a88164f82dd2745ff05e637e655f34d19"
+  integrity sha512-Wny3a2UXn5FEA1l7gc6BbpoV5mD1XijZqgkp4TRgDCDL5r3B5ieOFGUX5h3n78Tr1MEG7BfvoM8qeztdvNU0fw==
+  dependencies:
+    "@types/react" "*"
+    hoist-non-react-statics "^3.3.0"
 
 "@types/json-schema@^7.0.12":
   version "7.0.13"
@@ -1047,6 +1067,11 @@ convert-source-map@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/convert-source-map/-/convert-source-map-2.0.0.tgz#4b560f649fc4e918dd0ab75cf4961e8bc882d82a"
   integrity sha512-Kvp459HrV2FEJ1CAsi1Ku+MY3kasH19TFykTz2xWmMeq6bk2NU3XXvfJ+Q61m0xktWwt+1HSYf3JZsTms3aRJg==
+
+cookie@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/cookie/-/cookie-0.5.0.tgz#d1f5d71adec6558c58f389987c366aa47e994f8b"
+  integrity sha512-YZ3GUyn/o8gfKJlnlX7g7xq4gyO6OSuhGPKaaGssGB2qgDUS0gPgtTvoyZLTt9Ab6dC4hfc9dV5arkvc/OCmrw==
 
 cosmiconfig@^7.0.0:
   version "7.1.0"
@@ -1420,7 +1445,7 @@ has@^1.0.3:
   resolved "https://registry.yarnpkg.com/has/-/has-1.0.4.tgz#2eb2860e000011dae4f1406a86fe80e530fb2ec6"
   integrity sha512-qdSAmqLF6209RFj4VVItywPMbm3vWylknmB3nvNiUIs72xAimcM8nVYxYr7ncvZq5qzk9MKIZR8ijqD/1QuYjQ==
 
-hoist-non-react-statics@^3.3.1:
+hoist-non-react-statics@^3.3.0, hoist-non-react-statics@^3.3.1, hoist-non-react-statics@^3.3.2:
   version "3.3.2"
   resolved "https://registry.yarnpkg.com/hoist-non-react-statics/-/hoist-non-react-statics-3.3.2.tgz#ece0acaf71d62c2969c2ec59feff42a4b1a85b45"
   integrity sha512-/gGivxi8JPKWNm/W0jSmzcMPpfpPLc3dY/6GxhX2hQ9iGj3aDfklV4ET7NjKpSinLpJ5vafa9iiGIEZg10SfBw==
@@ -1777,6 +1802,15 @@ queue-microtask@^1.2.2:
   resolved "https://registry.yarnpkg.com/queue-microtask/-/queue-microtask-1.2.3.tgz#4929228bbc724dfac43e0efb058caf7b6cfb6243"
   integrity sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==
 
+react-cookie@^6.1.1:
+  version "6.1.1"
+  resolved "https://registry.yarnpkg.com/react-cookie/-/react-cookie-6.1.1.tgz#af61c82ea7f41119d3cf8fd3534f8b6c0408f350"
+  integrity sha512-fuFRpf8LH6SfmVMowDUIRywJF5jAUDUWrm0EI5VdXfTl5bPcJ7B0zWbuYpT0Tvikx7Gs18MlvAT+P+744dUz2g==
+  dependencies:
+    "@types/hoist-non-react-statics" "^3.3.1"
+    hoist-non-react-statics "^3.3.2"
+    universal-cookie "^6.0.0"
+
 react-dom@^18.2.0:
   version "18.2.0"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-18.2.0.tgz#22aaf38708db2674ed9ada224ca4aa708d821e3d"
@@ -2013,6 +2047,14 @@ typescript@^5.0.2:
   version "5.2.2"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.2.2.tgz#5ebb5e5a5b75f085f22bc3f8460fba308310fa78"
   integrity sha512-mI4WrpHsbCIcwT9cF4FZvr80QUeKvsUsUvKDoR+X/7XHQH98xYD8YHZg7ANtz2GtZt/CBq2QJ0thkGJMHfqc1w==
+
+universal-cookie@^6.0.0:
+  version "6.1.1"
+  resolved "https://registry.yarnpkg.com/universal-cookie/-/universal-cookie-6.1.1.tgz#2d619e21804c93b39ff0c77fe47dafd7a492346d"
+  integrity sha512-33S9x3CpdUnnjwTNs2Fgc41WGve2tdLtvaK2kPSbZRc5pGpz2vQFbRWMxlATsxNNe/Cy8SzmnmbuBM85jpZPtA==
+  dependencies:
+    "@types/cookie" "^0.5.1"
+    cookie "^0.5.0"
 
 update-browserslist-db@^1.0.13:
   version "1.0.13"

@@ -1,5 +1,12 @@
+import AppProviders from "./AppProviders.tsx"
+import AppLayout from "./AppLayout.tsx"
+
 function App() {
-  return <p>Привет!</p>
+  return (
+    <AppProviders>
+      <AppLayout />
+    </AppProviders>
+  )
 }
 
 export default App
