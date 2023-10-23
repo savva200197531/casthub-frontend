@@ -2,7 +2,7 @@ import React, { ReactNode } from "react"
 
 import { ThemeProvider } from "@mui/material"
 
-import { useColorMode } from "./contexts/colorMode/ColorModeContext.tsx"
+import { useColorMode } from "./contexts/ColorMode/ColorModeContext.tsx"
 
 type Props = {
   children: ReactNode

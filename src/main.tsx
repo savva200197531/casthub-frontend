@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client"
 
 import App from "./App.tsx"
 import { CookiesProvider } from "react-cookie"
-import { ColorModeProvider } from "./contexts/colorMode/ColorModeContext.tsx"
+import { ColorModeProvider } from "./contexts/ColorMode/ColorModeContext.tsx"
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>

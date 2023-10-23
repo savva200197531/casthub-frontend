@@ -4,7 +4,7 @@ import { IconButton } from "@mui/material"
 import Brightness4Icon from "@mui/icons-material/Brightness4"
 import Brightness7Icon from "@mui/icons-material/Brightness7"
 
-import { useColorMode } from "../contexts/colorMode/ColorModeContext.tsx"
+import { useColorMode } from "../contexts/ColorMode/ColorModeContext.tsx"
 
 const ThemeToggleButton: React.FC = () => {
   const { mode, toggleColorMode } = useColorMode()
